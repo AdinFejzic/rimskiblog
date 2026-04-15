@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acta Romana | Zivot jednog Rimljanina</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800&family=Instrument+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-noise"></div>
+
+  <header class="hero">
+    <nav class="topbar">
+      <span class="brand">Acta Romana</span>
+      <a class="top-link" href="#objave">Objave</a>
+      <a class="top-link" href="#autor">O meni</a>
+      <a class="top-link" href="#galerija">Galerija</a>
+      <a class="top-link" href="#svakodnevica">Svakodnevnica</a>
+      <a class="top-link" href="#forum">Forum</a>
+    </nav>
+
+    <section class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Blog projekat</p>
+        <h1>Zivot jednog Rimljanina</h1>
+        <p class="lead">
+          Dnevnik iz starog Rima, ali kao da ga danas pise obicni lik koji samo pokusava
+          prezivjeti guzvu, birokratiju, stanarinu i politicke ispade.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#objave">Procitaj objave</a>
+          <button class="button button-secondary" id="quote-button" type="button">Daj rimski komentar</button>
+        </div>
+        <p class="quote-box" id="quote-box">"Panem et circenses" danas znaci: kruh, zabava i nimalo mira.</p>
+        <div class="hero-badges">
+          <span>Stanovanje: haoticno</span>
+          <span>Raspolozenje: umoran ali duhovit</span>
+          <span>Status: cekam pecat</span>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="sun-disc"></div>
+        <div class="colosseum">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="city-cards">
+          <article class="mini-card">
+            <strong>187.000+</strong>
+            <span>koraka po Forumu</span>
+          </article>
+          <article class="mini-card">
+            <strong>8 objava</strong>
+            <span>iz jednog haoticnog dana</span>
+          </article>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section section-light" id="autor">
+      <div class="story-layout">
+        <article class="profile-card">
+          <p class="eyebrow">O meni</p>
+          <h2>Lucius, obicni covjek iz Rima</h2>
+          <p>
+            Zivim u pretrpanoj insuli, radim sta stignem, obilazim Forum cesce nego sto zelim
+            i svaki dan pokusavam ostati normalan usred gradske buke, poreza i politike.
+          </p>
+          <div class="profile-facts">
+            <div>
+              <span>Posao</span>
+              <strong>Pisarski pomocnik</strong>
+            </div>
+            <div>
+              <span>Adresa</span>
+              <strong>Treci sprat, bez mira</strong>
+            </div>
+            <div>
+              <span>Najveci problem</span>
+              <strong>Krov, guzva i sluzbenici</strong>
+            </div>
+            <div>
+              <span>Omiljeni bijeg</span>
+              <strong>Arena i taverna</strong>
+            </div>
+          </div>
+        </article>
+
+        <aside class="trending-card">
+          <p class="eyebrow">Trending u Rimu</p>
+          <h3>Sta se danas najvise vrti po gradu?</h3>
+          <ul class="trend-list">
+            <li><span>01</span><strong>Novi porezi i stare zalbe</strong></li>
+            <li><span>02</span><strong>Gladiator sa kratkim macem</strong></li>
+            <li><span>03</span><strong>Guzva na Forumu prije rucka</strong></li>
+            <li><span>04</span><strong>Krovovi koji ne drze kisu</strong></li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section section-light" id="objave">
+      <div class="section-heading">
+        <p class="eyebrow">Glavne objave</p>
+        <h2>Feed iz srca Rima</h2>
+        <p>
+          Zamisljen kao stari blog sa modernim ritmom objava, ovaj prikaz spaja historiju,
+          humor i svakodnevne muke obicnog stanovnika Rima.
+        </p>
+      </div>
+
+      <div class="post-grid">
+        <article class="post-card accent-red">
+          <div class="post-meta">
+            <span>Objava I</span>
+            <button class="like-button" type="button" data-likes="128">Applaudite <strong>128</strong></button>
+          </div>
+          <h3>Arena i besplatni kruh</h3>
+          <p>
+            Evo me u Areni, opet ista ekipa. Sjedista su tvrda kao kamen, a sunce me przi
+            direkt u glavu. Navijam za onog malog s kratkim macem samo zato sto ima dobru
+            opremu. Iskreno, dosao sam samo zbog pauze i besplatnog kruha sto dijele.
+          </p>
+          <div class="tags">
+            <span>#Gladiatori</span>
+            <span>#IdemoPlavi</span>
+            <span>#Arena</span>
+          </div>
+        </article>
+
+        <article class="post-card accent-gold">
+          <div class="post-meta">
+            <span>Objava II</span>
+            <button class="like-button" type="button" data-likes="97">Applaudite <strong>97</strong></button>
+          </div>
+          <h3>Zgrada koja se raspada</h3>
+          <p>
+            Stan mi opet prokisnjava jer zivim na trecem spratu ove raspadnute zgrade.
+            Ako se srusi do podne, barem necu morati na posao. Komsija gore baca vodu kao
+            da testira novi akvadukt, a ja vec trazim gdje da sklonim sandale.
+          </p>
+          <div class="tags">
+            <span>#RimskiZivot</span>
+            <span>#NemaSpavanja</span>
+            <span>#Insula</span>
+          </div>
+        </article>
+
+        <article class="post-card accent-ink">
+          <div class="post-meta">
+            <span>Objava III</span>
+            <button class="like-button" type="button" data-likes="143">Applaudite <strong>143</strong></button>
+          </div>
+          <h3>Forum, papiri i galama</h3>
+          <p>
+            Evo me opet na Forumu, cekam u redu vec sat vremena. Moram srediti papire za
+            onaj komad zemlje sto sam naslijedio, a ovi cinovnici se vuku kao puzevi. Jos
+            je danas neka frka, neki govornik se popeo i galami, niko ga ne slusa, a samo
+            nam pravi jos vecu guzvu. Ako ne zavrsim ovo do rucka, stvarno cu poludjeti.
+          </p>
+          <div class="tags">
+            <span>#Biromanija</span>
+            <span>#Rim</span>
+            <span>#Zadatak</span>
+          </div>
+        </article>
+
+        <article class="post-card accent-brick">
+          <div class="post-meta">
+            <span>Objava IV</span>
+            <button class="like-button" type="button" data-likes="111">Applaudite <strong>111</strong></button>
+          </div>
+          <h3>Oglasna ploca i novi zakoni</h3>
+          <p>
+            Jeste li vidjeli sta su jutros okacili na oglasnu plocu? Opet neki novi zakoni,
+            kazu ne smije se ovo, ne smije se ono. Svake sedmice nesto novo izmisle samo da
+            nam uzmu jos koji novcic. Cuo sam da ce sljedece zabraniti i normalno disanje ako
+            se ne plati taksa.
+          </p>
+          <div class="tags">
+            <span>#Zakoni</span>
+            <span>#Porezi</span>
+            <span>#OglasnaPloca</span>
+          </div>
+        </article>
+
+        <article class="post-card accent-red">
+          <div class="post-meta">
+            <span>Objava V</span>
+            <button class="like-button" type="button" data-likes="89">Applaudite <strong>89</strong></button>
+          </div>
+          <h3>Kupanje koje nije odmor</h3>
+          <p>
+            Odem u terme da se opustim, a tamo pola grada. Jedan raspravlja o politici,
+            drugi vice da mu je neko uzeo ulje, treci me gura kao da smo na trci kola.
+            Ako je ovo odmor, onda mi je posao spa centar.
+          </p>
+          <div class="tags">
+            <span>#Terme</span>
+            <span>#NemaMira</span>
+            <span>#RimskiDan</span>
+          </div>
+        </article>
+
+        <article class="post-card accent-gold">
+          <div class="post-meta">
+            <span>Objava VI</span>
+            <button class="like-button" type="button" data-likes="104">Applaudite <strong>104</strong></button>
+          </div>
+          <h3>Trznica ili bojno polje</h3>
+          <p>
+            Otisao sam po masline i hljeb, a vratio se sa glavoboljom i tri nova razloga
+            da ne vjerujem prodavcima. Svako kune da je roba najbolja u Rimu, a cijene
+            skacu brze nego glasine po ulici.
+          </p>
+          <div class="tags">
+            <span>#Trznica</span>
+            <span>#Cijene</span>
+            <span>#Masline</span>
+          </div>
+        </article>
+
+        <article class="post-card accent-ink">
+          <div class="post-meta">
+            <span>Objava VII</span>
+            <button class="like-button" type="button" data-likes="92">Applaudite <strong>92</strong></button>
+          </div>
+          <h3>Saobracaj u gradu? Katastrofa</h3>
+          <p>
+            Ne znam ko je rekao da sve ceste vode u Rim, ali niko nije spomenuo da sve te
+            ceste onda zavrse u jednoj velikoj guzvi. Kola zapela, ljudi vicu, mazge stoje,
+            a ja kasnim iako sam krenuo prije sunca.
+          </p>
+          <div class="tags">
+            <span>#Guzva</span>
+            <span>#Kola</span>
+            <span>#Kasnjenje</span>
+          </div>
+        </article>
+
+        <article class="post-card accent-brick">
+          <div class="post-meta">
+            <span>Objava VIII</span>
+            <button class="like-button" type="button" data-likes="118">Applaudite <strong>118</strong></button>
+          </div>
+          <h3>Komsije opet sve znaju</h3>
+          <p>
+            Nisam ni izasao iz zgrade, a vec sam cuo tri price o senatorima, dvije o novim
+            porezima i jednu o tome ko se potukao u taverni. U Rimu vijesti putuju brze od
+            glasnika, pogotovo kad ih prenosi komsiluk.
+          </p>
+          <div class="tags">
+            <span>#Komsije</span>
+            <span>#Tracevi</span>
+            <span>#Taverna</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-light" id="galerija">
+      <div class="section-heading">
+        <p class="eyebrow">Galerija</p>
+        <h2>Razglednice iz antiickog haosa</h2>
+        <p>
+          Umjesto pravih fotografija, galerija je stilizovana kao niz scena iz grada:
+          Arena, Forum, stambene zgrade i nocni predah u taverni.
+        </p>
+      </div>
+
+      <div class="gallery-grid">
+        <article class="gallery-card arena-scene">
+          <div class="gallery-overlay">
+            <h3>Arena pod suncem</h3>
+            <p>Vrelina, galama i navijanje glasnije od razuma.</p>
+          </div>
+        </article>
+        <article class="gallery-card forum-scene">
+          <div class="gallery-overlay">
+            <h3>Forum u spici</h3>
+            <p>Redovi, govorancije i ljudi kojima treba jos jedan pecat.</p>
+          </div>
+        </article>
+        <article class="gallery-card insula-scene">
+          <div class="gallery-overlay">
+            <h3>Insula poslije kise</h3>
+            <p>Krov pusta, stepenice skripe, ali renta ne kasni.</p>
+          </div>
+        </article>
+        <article class="gallery-card tavern-scene">
+          <div class="gallery-overlay">
+            <h3>Vece u taverni</h3>
+            <p>Mjesto gdje svi pricaju o politici kao da ih je neko pitao.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="svakodnevica">
+      <div class="section-heading narrow">
+        <p class="eyebrow">Svakodnevnica</p>
+        <h2>Kako izgleda jedan rimski dan?</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <span class="time">Jutro</span>
+          <h3>Budjenje uz buku ulice</h3>
+          <p>Trgovci vicu, kola tresu kaldrmu, a komsiluk raspravlja glasnije nego senatori.</p>
+        </article>
+        <article class="timeline-item">
+          <span class="time">Podne</span>
+          <h3>Forum i administracija</h3>
+          <p>Redovi, pecati, prepirke i obavezno neko ko drzi govor bas kad najvise zuris.</p>
+        </article>
+        <article class="timeline-item">
+          <span class="time">Poslijepodne</span>
+          <h3>Pauza uz kruh i traceve</h3>
+          <p>Najvaznije vijesti stizu od komsija, prodavaca i ljudi koji "znaju nekoga u Senatu".</p>
+        </article>
+        <article class="timeline-item">
+          <span class="time">Vece</span>
+          <h3>Arena ili taverna</h3>
+          <p>Nakon svega, ostaje samo zabava, navijanje i nada da krov nece procuriti preko noci.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-dark" id="komentari">
+      <div class="section-heading narrow">
+        <p class="eyebrow">Komentari pratitelja</p>
+        <h2>Sta drugi Rimljani kazu?</h2>
+      </div>
+
+      <div class="comment-grid">
+        <article class="comment-card">
+          <span class="comment-role">Gaj, komsija</span>
+          <p>"Ako ti opet prokisnjava, dodji kod mene. I meni prokisnjava, ali barem zajedno kukamo."</p>
+        </article>
+        <article class="comment-card">
+          <span class="comment-role">Flavia, trgovkinja</span>
+          <p>"Na Forumu nije guzva, samo svi misle da je njihov papir najvazniji papir u carstvu."</p>
+        </article>
+        <article class="comment-card">
+          <span class="comment-role">Marcellus, veteran</span>
+          <p>"Novi zakoni su kao marsiranje: uvijek jos jedan korak kad mislis da je gotovo."</p>
+        </article>
+        <article class="comment-card">
+          <span class="comment-role">Publius, ljubitelj Arena</span>
+          <p>"Ako vec ides zbog kruha, barem navijaj kako treba. Mali s kratkim macem je stvarno solidan."</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-light forum-board" id="forum">
+      <div class="section-heading">
+        <p class="eyebrow">Forum Romanum</p>
+        <h2>Tabla javnih obavijesti</h2>
+      </div>
+
+      <div class="board-layout">
+        <article class="notice">
+          <h3>Popularna tema dana</h3>
+          <p id="forum-status">
+            Danas narod najvise komentarise guzvu na Forumu i nove zakone okacene na plocu.
+          </p>
+        </article>
+
+        <article class="notice">
+          <h3>Brzi pregled</h3>
+          <ul class="fact-list">
+            <li>Stanovanje je nesigurno i cesto skupo.</li>
+            <li>Zabava u Areni odvlaci paznju od problema.</li>
+            <li>Birokratija je spora cak i u antickom Rimu.</li>
+            <li>Obican covjek stalno osjeca posljedice novih odluka vlasti.</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="poll-card">
+        <div>
+          <p class="eyebrow">Anketa dana</p>
+          <h3>Sta je gore u Rimu?</h3>
+          <p class="poll-copy">Izaberi najveci problem obicnog covjeka i pogledaj kako trenutno stoje glasovi.</p>
+        </div>
+        <div class="poll-options">
+          <button class="poll-button" type="button" data-choice="Guzva na Forumu">
+            <span>Guzva na Forumu</span>
+            <strong id="poll-0">34%</strong>
+          </button>
+          <button class="poll-button" type="button" data-choice="Prokisnjavajuci stan">
+            <span>Prokisnjavajuci stan</span>
+            <strong id="poll-1">26%</strong>
+          </button>
+          <button class="poll-button" type="button" data-choice="Novi zakoni">
+            <span>Novi zakoni</span>
+            <strong id="poll-2">22%</strong>
+          </button>
+          <button class="poll-button" type="button" data-choice="Vrucina u Areni">
+            <span>Vrucina u Areni</span>
+            <strong id="poll-3">18%</strong>
+          </button>
+        </div>
+        <p class="poll-result" id="poll-result">Trenutno vodi: Guzva na Forumu.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Projektni zadatak: blog stranica o zivotu jednog Rimljanina.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
